@@ -4,6 +4,14 @@
   width: 500px;
 }
 
+#resetBtn {
+    
+}
+
+#clearBtn {
+
+}
+
 #foreground {
   position: absolute;
   top: 0;
