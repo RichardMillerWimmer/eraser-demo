@@ -1,13 +1,25 @@
-#foreground {
+.wrapper {
   position: relative;
   height: 500px;
   width: 500px;
+}
+
+#foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
   background-color: black;
 }
 
 #background {
-  position: relative;
-  height: 500px;
-  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
   background-color: blue;
 }
