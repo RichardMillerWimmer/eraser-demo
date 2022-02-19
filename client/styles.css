@@ -1,0 +1,13 @@
+#foreground {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
+
+#background {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+}
